@@ -1,0 +1,7 @@
+azureml-core==1.48.0
+azureml-pipeline==1.48.0
+azureml-dataprep[pandas]==1.48.0
+pandas==1.5.3
+scikit-learn==1.0.2
+azureml-dataprep>=4.8.0,<5.0.0
+azureml-dataset-runtime==1.0.0
