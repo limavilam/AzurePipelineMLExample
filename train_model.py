@@ -17,4 +17,4 @@ def train_and_save_model():
     model = LinearRegression()
     model.fit(X_train, y_train)
 
-    joblib.dump(model, 'outputs/model.pkl')
+    joblib.dump(model, './outputs/model.pkl')

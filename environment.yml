@@ -1,0 +1,11 @@
+name: azure-diabetes-env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pip
+  - pandas
+  - scikit-learn
+  - pip:
+      - azureml-sdk

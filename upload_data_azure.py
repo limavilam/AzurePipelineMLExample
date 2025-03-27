@@ -6,4 +6,4 @@ def upload_and_register_data():
     datastore = ws.get_default_datastore()
     datastore.upload_files(files=['data/diabetes.csv'], target_path='diabetes-data/', overwrite=True)
     dataset = Dataset.Tabular.from_delimited_files(path=[(datastore, 'diabetes-data/diabetes.csv')])
-    dataset.register(workspace=ws, name='diabetes_dataset', description='Diabetes dataset')
+    dataset.register(workspace=ws, name='diabetes_dataset', description='Diabetes dataset', create_new_version=True)
